@@ -246,7 +246,7 @@ function linkify( selector ) {
 				</section>
 
 				<section>
-					<h2>Marvelous List</h2>
+					<h2>无序列表</h2>
 					<ul>
 						<li>No order here</li>
 						<li>Or here</li>
@@ -256,7 +256,7 @@ function linkify( selector ) {
 				</section>
 
 				<section>
-					<h2>Fantastic Ordered List</h2>
+					<h2>有序列表</h2>
 					<ol>
 						<li>One is smaller than...</li>
 						<li>Two is smaller than...</li>
@@ -265,28 +265,28 @@ function linkify( selector ) {
 				</section>
 
 				<section>
-					<h2>Tabular Tables</h2>
+					<h2>表格</h2>
 					<table>
 						<thead>
 							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
+								<th>项目</th>
+								<th>值</th>
+								<th>量</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Apples</td>
+								<td>苹果</td>
 								<td>$1</td>
 								<td>7</td>
 							</tr>
 							<tr>
-								<td>Lemonade</td>
+								<td>柠檬</td>
 								<td>$2</td>
 								<td>18</td>
 							</tr>
 							<tr>
-								<td>Bread</td>
+								<td>面包</td>
 								<td>$3</td>
 								<td>2</td>
 							</tr>
@@ -294,30 +294,19 @@ function linkify( selector ) {
 					</table>
 				</section>
 
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
 
 				<section>
-					<h2>Intergalactic Interconnections</h2>
+					<h2>跳转</h2>
 					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
+            可以通过链接进行跳转,比如
+            <a href="#/2/3">这样</a>
 					</p>
 				</section>
 
 				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
+					<h2>演讲者视图</h2>
+					<p>有一个 <a href="https://github.com/hakimel/reveal.js#speaker-notes">演讲者视图</a>. 它包括计时器, 下一张预览以及说明.</p>
+					<p>按 <em>S</em> 键来启动它</p>
 
 					<aside class="notes">
 						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
@@ -325,49 +314,28 @@ function linkify( selector ) {
 				</section>
 
 				<section>
-					<h2>Global State</h2>
+					<h2>暂停</h2>
 					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
+            按B 或 . 键来暂停演讲
 					</p>
 				</section>
 
 				<section>
-					<h2>Much more</h2>
+					<h2>更多</h2>
 					<ul>
 						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#api">JavaScript API</a></li>
 						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
 						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">自定义快捷键</a></li>
 					</ul>
 				</section>
 
 				<section style="text-align: left;">
-					<h1>THE END</h1>
+					<h1>结束</h1>
 					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+						- <a href="http://slides.com">尝试在线编辑器</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">源码和文档</a>
 					</p>
 				</section>
 
